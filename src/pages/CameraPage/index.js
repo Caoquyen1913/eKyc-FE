@@ -21,8 +21,8 @@ const CameraPage = () => {
       birthday: '01/01/2002',
       imageWidth: width,
       imageHeight: height,
-      identityWidth: 700,
-      identityHeight: 550,
+      identityWidth: 550,
+      identityHeight: 700,
     }
 
     const { base64String, result } = await api.post('frontside', dataPost);
